@@ -7,7 +7,7 @@
 # FIX SCRIPT
 - backup script issue fix
                                            
-<h2 align="center"> AutoScript By NevermoreSSH</h2>
+<h2 align="center"> AutoScript By Jebon</h2>
 
 <h2 align="center"> Supported Linux Distribution</h2>
 <p align="center"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%2010&message=Buster&color=blue"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%2011&message=Bullseye&color=blue"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2018&message=18.04 LTS&color=blue"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2020&message=20.04 LTS&color=blue"></p>
@@ -32,11 +32,11 @@
 ( IPV4 only )
 
   ```html
-  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/NevermoreSSH/oguser/main/setup2.sh && chmod +x setup2.sh && sed -i -e 's/\r$//' setup2.sh && screen -S setup2 ./setup2.sh
+  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/JebonRX/oguser/main/setup2.sh && chmod +x setup2.sh && sed -i -e 's/\r$//' setup2.sh && screen -S setup2 ./setup2.sh
   ```
 or ( IPV4 + IPV6 enable )
   ```html
-  apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/NevermoreSSH/oguser/main/setup3.sh && chmod +x setup3.sh && sed -i -e 's/\r$//' setup3.sh && screen -S setup ./setup3.sh
+  apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/JebonRX/oguser/main/setup3.sh && chmod +x setup3.sh && sed -i -e 's/\r$//' setup3.sh && screen -S setup ./setup3.sh
   ```
 ( IPV4 only + WARP Proxy )
 
@@ -64,7 +64,7 @@ systemctl restart wg-quick@wg0
  ## Script FREE using license key 
 
    ```html
-  NevermoreSSH
+  JebonRX
   ```
   
 
@@ -117,6 +117,6 @@ systemctl restart wg-quick@wg0
 
 
 <p align="center">
-  <a><img src="https://img.shields.io/badge/Copyright%20©-NevermoreSSH%20AutoScriptVPN%202023.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
+  <a><img src="https://img.shields.io/badge/Copyright%20©-JebonRX%20AutoScriptVPN%202023.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
     </p>
    </p>

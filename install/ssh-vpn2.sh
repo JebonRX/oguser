@@ -18,8 +18,8 @@ ver=$VERSION_ID
 country="MY"
 state="Kuala_Lumpur"
 locality="Kuala_Lumpur"
-organization="@NevermoreSSH"
-organizationalunit="@NevermoreSSH"
+organization="@JebonRX"
+organizationalunit="@JebonRX"
 commonname="none"
 email="elliez667@gmail.com"
 

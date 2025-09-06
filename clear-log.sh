@@ -26,4 +26,4 @@ echo > /var/log/syslog
 echo > /var/log/btmp
 echo > /var/log/messages
 echo > /var/log/debug
-echo -e "Script By NevermoreSSH"
+echo -e "Script By Jebon"

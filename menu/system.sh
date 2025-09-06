@@ -84,7 +84,7 @@ autoreboot
 passwd
 ;;
 99)
-wget -q -O /usr/bin/updatemenu "https://raw.githubusercontent.com/NevermoreSSH/oguser/main/update/updatemenu.sh" && chmod +x /usr/bin/updatemenu && updatemenu
+wget -q -O /usr/bin/updatemenu "https://raw.githubusercontent.com/JebonRX/oguser/main/update/updatemenu.sh" && chmod +x /usr/bin/updatemenu && updatemenu
 ;;
 x)
 menu

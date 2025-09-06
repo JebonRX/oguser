@@ -22,7 +22,7 @@ echo -e "\e[0m"
 echo ""
 sleep 1
 # Insert Password
-Password=NevermoreSSH
+Password=JebonRX
 # Execute
 read -p "Please Insert The License Key : " Passwordnya
 if [ $Password = $Passwordnya ]; then
@@ -30,7 +30,7 @@ clear
 echo -e ""
 echo -e "${green}Permission Accepted...${NC}"
 echo ""
-echo "Thanks For Using This Autoscript-Lite By NevermoreSSH"
+echo "Thanks For Using This Autoscript-Lite By JebonRX"
 echo ""
 sleep 3
 else
